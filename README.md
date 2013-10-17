@@ -2,19 +2,19 @@
 
 This is a copy (as an idea at least) of the original ["windows from scratch"][0] but without all the chef recipes and with specific versions of veewee / chef that work for me. The general idea is the same though so SPECIAL THANKS to [@hh][1] (Hippie Hacker) for showing the way!
 
-## How to use this very small and simple "guideline"?
+## How to
 
 ### 1. Install all the appropriate packages
 
 This project needs [VirtualBox][2] and [Vagrant][3] installed. For the Ruby part, Ruby 1.9.3+ and Bundler gem are more than enough.
-For the purpose of this example "7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso" ISO is needed and can be easily found from Microsoft download center as it is an evaluation version of windows 2008R2 for 180 days use.
+For the purpose of this example "7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso" ISO is needed and can be easily found from Microsoft download center as it is an evaluation version of windows 2008R2 for 180 days use. This ISO should be copied into the iso folder of the project.
 
 If all the previous components exist in your development machine we can proceed.
 
 ### 2. Clone the project
 
 `````
-git clone windows_from_scratch
+git clone git@github.com:dark5un/windows_from_scratch.git
 cd windows_from_scratch
 bundle install
 `````
